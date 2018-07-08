@@ -1,72 +1,26 @@
 <div class="sql-home">
 
-    {% if site.commonChoices %}
-    <!-- TODO: LOCALIZE >:(-->
-    <h2 class="sql-home-title">{{site.commonChoicesTitle}}</h2>
-    <div class="sql-home-items">
-        {% for option in site.commonChoices %}
-        {% assign item = option[1] %}
-        <div class="sql-home-item">
-            <div class="sql-home-itemflex">
-                <a class="sql-home-link sql-home-link--spaced" href="{{item.link}}">{{item.text}}</a>
-            </div>
-        </div>
-
-        {% endfor %}
-    </div>
-    {% endif %}
-
-    <footer class="sql-home-footer">
-        {% if site.case-studies %}
-        <div class="sql-home-items case-studies">
-            <!-- TODO: LOCALIZE -->
-            <h2 class="sql-home-title">
-                <span aria-hidden="true">Case studies</span>
-            </h2>
-            {% for partner in site.case-studies %}
-            {% assign item = partner[1] %}
-            <div class="sql-home-item sql-home-item--column">
-                <a class="sql-home-link--study" href="{{item.url}}" target="_blank">
-                    <img class="sql-home-icon sql-home-icon--block"
-                         src="{{item.logoUrl}}" alt="{{item.logoAltText}}">
-                    <h2 class="sql-home-item-title">
-                        <span aria-hidden="true">{{item.title}}</span>
-                    </h2>
-                </a>
-                <span class="sql-home-text">{{item.text}}</span>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if site.data.partners %}
-        <div class="sql-home-items partners">
+ {% if site.data.cookies %}
+        <div class="cookies">
             <!-- TODO: HARD-TEXT, MORE LIKE HARM-TEXT. -->
-            <h2 class="sql-home-title">
+            <h2 class="cookie-title">
                 <span aria-hidden="true">Partner tools</span>
             </h2>
-            {% for partner in site.data.partners %}
-            {% assign item = partner[1] %}
-            <div class="sql-home-item sql-home-item--column">
-                <a class="sql-home-link--study" href="{{item.url}}" target="_blank">
-                    <img class="sql-home-icon sql-home-icon--block"
+            {% for cookie in site.data.cookies %}
+            {% assign item = cookie[1] %}
+            <div class="cookie-listing">
+                <a class="cookie-link" href="{{item.url}}" target="_blank">
+                    <img class="cookie-icon"
                          src="{{item.logoUrl}}" alt="{{item.logoAltText}}">
-                    <h2 class="sql-home-item-title">
+                    <h2 class="cookie-description">
                         <span aria-hidden="true">{{item.title}}</span>
                     </h2>
                 </a>
-                <span class="sql-home-text">{{item.text}}</span>
+                <span class="sql-home-text">{{item.description}}</span>
             </div>
             {% endfor %}
         </div>
         {% endif %}
-    </footer>
 
-    <!-- TODO: LOCALIZE! LOCALIZE! >:( -->
-    <span class="sql-home-message">
-        Don't see a programming language you were looking for? Join the conversation on <a class="sql-home-link sql-home-link--underline" href="{{site.gitter}}" target="_blank">Gitter</a>.
-        <br>
-        <br>
-        Contribute to these tutorials on <a class="sql-home-link sql-home-link--underline" href="{{site.github}}" target="_blank">our GitHub repository</a>!
-    </span>
+
 </div>

@@ -32,5 +32,4 @@ exclude:
   - deploy.cmd
   - getruby.cmd
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
