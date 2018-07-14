@@ -4,19 +4,19 @@
 # Standard format for each cookie writeup is
 #   someSimpleTag:
 #       title: Short Cookie Name
-#       price: price per clamshell box
+#       price: price per clamshell box, IN CENTS. 
 #       description: Long writeup on why the cookie is great.
 # It might be a good idea to add some other fields, like price per pound/gallon/other unit.
 # These writeups are available in the site templates as {{ site.data.cookies }}
 
 snickerdoodle:
     title: Snickerdoodle
-    price: 10
+    price: 1000
     description: Very good, much cookie.
 
 doubleChocolate:
     title: Double Chocolate Cookies
-    price: 10
+    price: 1000
     description: >-
         Can come with white and/or milk chocolate chips.
         White chocolate is the correct choice, though.
@@ -24,55 +24,55 @@ doubleChocolate:
 
 stdChocoChip:
     title: Chocolate chip Cookies
-    price: 10
+    price: 1000
     description: Just like mother used to make.
 
 oatmealRaisin:
     title: Oatmeal Raisin Cookies
-    price: 10
+    price: 1000
     description: Also available with cranberry raisin.
 
 whiteChocolateCraisin:
     title: White chocolate Craisin Cookies
-    price: 10
+    price: 1000
     description: Oatmeal cookies with white chocolate chips and cranberry raisin. Proof of the utter decadence of late capitalism.
 
 shortbread:
     title: Butterscotch Shortbread
-    price: 10
+    price: 1000
     description: Standard butterscotch shortbread. You know what it is, it's delicious.
 
 snickerdoodles:
     title: Snickerdoodles
-    price: 10
+    price: 1000
     description: Sugar cookies rolled in cinnamon sugar. Maybe not the best, but they're never bad.
 
 pinaColada:
     title: Pina Colada Cookies
-    price: 10
+    price: 1000
     description: Not sure how to describe them, but they're delicious. Also available with extra mango.
 
 sugarCookies:
     title: Sugar cookies
-    price: 10
+    price: 1000
     description: Standard sugar cookies. Neither special nor objectionable.
 
 almondJoy:
     title: Almond Joy Cookies
-    price: 10
+    price: 1000
     description: You like almond joy candy bars? Have almond joy cookies.
 
 chocolateCoffee:
     title: Chocolate Coffee Cookies
-    price: 10
+    price: 1000
     description: Perfect for your klatch.
 
 chocolateOrange:
     title: Chocolate Orange Cookies
-    price: 10
+    price: 1000
     description: Also available in double chocolate.
 
 chocolateMint:
     title: Mint Chocolate Cookies
-    price: 10
+    price: 1000
     description: Also available in double chocolate. 

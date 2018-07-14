@@ -41,3 +41,4 @@ exclude:
   - getruby.cmd
 plugins:
   - jekyll-redirect-from
+  - jekyll-money

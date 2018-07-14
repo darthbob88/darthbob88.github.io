@@ -11,11 +11,11 @@
             <div class="cookie-listing">
                 <a class="cookie-link" href="{{item.url}}" target="_blank">
                     <img class="cookie-icon"
-                         src="{{item.logoUrl}}" alt="{{item.logoAltText}}">
+                         src="{{item.logoUrl}}" alt="{{item.title}}">
                     <h2 class="cookie-title">
                         <span aria-hidden="true">{{item.title}}</span>
                     </h2>
-                    <strong>Price: ${{item.price}} per clamshell box </strong>
+                    <strong>Price: {{item.price | money}} per box </strong>
                 </a>
                 <div class="cookie-description">{{item.description}}</div>
             </div>
