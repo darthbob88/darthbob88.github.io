@@ -4,24 +4,25 @@
         <div class="cookies">
             <!-- TODO: HARD-TEXT, MORE LIKE HARM-TEXT. -->
             <h1 class="cookie-header">
-                <span aria-hidden="true">Cookies For Sale</span>
+                <span aria-hidden="true">{{ site.title}}</span>
             </h2>
+
+<div class="cookie-site-description"> {{ site.description }}</div>
+
             {% for cookie in site.data.cookies %}
             {% assign item = cookie[1] %}
             <div class="cookie-listing">
-                <a class="cookie-link" href="{{item.url}}" target="_blank">
-                    <img class="cookie-icon"
-                         src="{{item.logoUrl}}" alt="{{item.title}}">
-                    <h2 class="cookie-title">
-                        <span aria-hidden="true">{{item.title}}</span>
-                    </h2>
-                    <strong>Price: {{item.price | money}} per box </strong>
-                </a>
+                <h3 class="cookie-title">
+                    <span aria-hidden="true">{{item.title}}</span>
+                </h3>
+                <img class="cookie-icon" style="display: block" src="{{item.logoUrl}}" alt="{{item.title}}">
+                <strong>Price: {{item.price | money}} per box </strong>
                 <div class="cookie-description">{{item.description}}</div>
             </div>
             {% endfor %}
         </div>
 {% endif %}
 
+<div class="cookie-clamshell"> {{ site.clamshellDescription }}</div>
 
 </div>
