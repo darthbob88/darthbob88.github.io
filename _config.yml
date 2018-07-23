@@ -27,6 +27,14 @@ clamshellDescription: >-
   full of somewhere around 1 ½ to 2 pounds of whichever kind of cookies is ordered,
   weight varying due to the size and texture of the cookies.
 
+whySellByBox: >-
+  Cookies are currently sold by the box, rather than by the dozen, for two reasons.
+  First, the cookies we make are not consistent in size, and we feel it'd be unfair to sell one cookie for the same price
+  as one twice as large.
+  Second, we also want to enable custom orders. You want a box of sugar cookies, plus one white chocolate craisin to treat
+  yourself? Half and half snickerdoodles and oatmeal raisin? A variety pack of whatever we just made jumbled in a box?
+  That's still just $10, $10, $10.
+
 # cookie listing. Currently in a separate data file, but might be better located in this file?
 
 # Build settings
