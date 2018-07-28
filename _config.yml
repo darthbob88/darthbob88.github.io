@@ -29,11 +29,10 @@ clamshellDescription: >-
 
 whySellByBox: >-
   Cookies are currently sold by the box, rather than by the dozen, for two reasons.
-  First, the cookies we make are not consistent in size, and we feel it'd be unfair to sell one cookie for the same price
-  as one twice as large.
-  Second, we also want to enable custom orders. You want a box of sugar cookies, plus one white chocolate craisin to treat
-  yourself? Half and half snickerdoodles and oatmeal raisin? A variety pack of whatever we just made jumbled in a box?
-  That's still just $10, $10, $10.
+  First, the cookies we make are not consistent in size and therefore filling a box with one type of cookies
+  might take 3 dozen of one kind or 4 dozen of another, or it could vary between batches.
+  Furthermore, if you want a mixed bag of what we have on hand, then that’s an option that we are willing to give if you
+  ask—just give us an outline of what you don’t want or don’t complain if you get nuts when you don’t want them.
 
 # cookie listing. Currently in a separate data file, but might be better located in this file?
 
