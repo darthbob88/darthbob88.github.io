@@ -2,10 +2,12 @@
 # https://en.wikipedia.org/wiki/YAML
 # https://github.com/Animosity/CraftIRC/wiki/Complete-idiot's-introduction-to-yaml
 # Standard format for each cookie writeup is
+#
 #   someSimpleTag:
 #       title: Short Cookie Name
 #       price: price per clamshell box, IN CENTS. 
 #       description: Long writeup on why the cookie is great.
+#
 # It might be a good idea to add some other fields, like price per pound/gallon/other unit.
 # These writeups are available in the site templates as {{ site.data.cookies }}
 
@@ -13,24 +15,29 @@ doubleChocolate:
     title: Double Chocolate Cookies
     price: 1000
     description: >-
-        Can come with white and/or milk chocolate chips.
-        White chocolate is the correct choice, though.
-        If you disagree, you're wrong.
+        Can come with white and/or milk chocolate chips. These cookies have chocolate dough and white chocolate chips.  
 
 stdChocoChip:
     title: Chocolate chip Cookies
     price: 1000
-    description: Just like mother used to make.
+    description: >-
+        Just like mother used to make. Or rather, a version of what mother used to make.
+        Unless you pick a preference, the cookies might have a variation of either milk chocolate
+        or semi-sweet chocolate and white chocolate mix for their chips.
+        Both are awesome enough that the baker can’t pick one to be the standard variation.
 
 oatmealRaisin:
     title: Oatmeal Raisin Cookies
     price: 1000
-    description: Also available with cranberry raisin.
+    description: Also available with cranberry raisin. Very similar to the cookies that you can buy at the store, but, again, better.
 
 whiteChocolateCraisin:
     title: White chocolate Craisin Cookies
     price: 1000
-    description: Oatmeal cookies with white chocolate chips and cranberry raisin. Proof of the utter decadence of late capitalism.
+    description: >-
+        Oatmeal cookies with white chocolate chips and cranberry raisin. It might not sound like something you really need to
+        have, but they are. Cranberry and white chocolate pair together better than you would ever think, and these cookies
+        are proof of it.
 
 shortbread:
     title: Butterscotch Shortbread
@@ -40,34 +47,59 @@ shortbread:
 snickerdoodles:
     title: Snickerdoodles
     price: 1000
-    description: Sugar cookies rolled in cinnamon sugar. Maybe not the best, but they're never bad.
+    description: Snickerdoodles- like you could buy in the store, only better.
 
 pinaColada:
     title: Pina Colada Cookies
     price: 1000
-    description: Not sure how to describe them, but they're delicious. Also available with extra mango.
+    description: >- 
+    Soft cookies made with pineapple and coconut. If wanted, the addition of mango makes them an instant antidepressant
+    according to one customer.
 
 sugarCookies:
     title: Sugar cookies
     price: 1000
-    description: Standard sugar cookies. Neither special nor objectionable.
+    description: >-
+    As a general rule, these are pretty close to generic sugar cookies with vanilla flavoring. If asked, they can be
+    rolled out into flat circles for decoration but otherwise will just be shaped as gently sloping mostly-circles. Unless
+    requested otherwise, will be vanilla flavored. If requested, other flavors or colors can be used for variety.
 
 almondJoy:
     title: Almond Joy Cookies
     price: 1000
-    description: You like almond joy candy bars? Have almond joy cookies.
+    description: >-
+    You like almond joy candy bars? Have almond joy cookies. These are chocolate chip cookies with milk chocolate chips, almonds,
+    and coconut. They are entirely worth it.
 
 chocolateCoffee:
     title: Chocolate Coffee Cookies
     price: 1000
-    description: Perfect for your klatch.
+    description: >-
+    In case you don’t have any coffee to dip your cookie in, these cookies already have coffee flavoring in them. They
+    are chocolate dough with coffee flavoring and chocolate chips.
 
 chocolateOrange:
     title: Chocolate Orange Cookies
     price: 1000
-    description: Also available in double chocolate.
+    description: >-
+    For those who love the chocolate oranges for sale every Christmas, these are cookies that are chocolate chip with orange
+    flavoring. Your choice if the dough is chocolate also.
 
 chocolateMint:
     title: Mint Chocolate Cookies
     price: 1000
-    description: Also available in double chocolate.
+    description: For those who love mint chocolate, these cookies are minty with chocolate chips and chocolate dough.
+    
+chocolateToffee:
+    title: Toffee Chocolate Chip Cookies 
+    price: 1000
+    description: >-
+    These are chocolate chip cookies with toffee chips in them. The dough can be chocolate flavored or regular, depending
+    on your preference. Both are really good.
+    
+butterscotchOatmeal:
+    title: Butterscotch Oatmeal
+    price: 1000
+    description: >-
+    These are a sweet brown sugar and oatmeal cookie that is highly addictive and has probably added 10 pounds to the family of
+    the baker.
