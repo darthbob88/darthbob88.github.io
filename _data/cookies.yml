@@ -53,37 +53,37 @@ pinaColada:
     title: Pina Colada Cookies
     price: 1000
     description: >- 
-    Soft cookies made with pineapple and coconut. If wanted, the addition of mango makes them an instant antidepressant
-    according to one customer.
+        Soft cookies made with pineapple and coconut. If wanted, the addition of mango makes them an instant antidepressant
+        according to one customer.
 
 sugarCookies:
     title: Sugar cookies
     price: 1000
     description: >-
-    As a general rule, these are pretty close to generic sugar cookies with vanilla flavoring. If asked, they can be
-    rolled out into flat circles for decoration but otherwise will just be shaped as gently sloping mostly-circles. Unless
-    requested otherwise, will be vanilla flavored. If requested, other flavors or colors can be used for variety.
+        As a general rule, these are pretty close to generic sugar cookies with vanilla flavoring. If asked, they can be
+        rolled out into flat circles for decoration but otherwise will just be shaped as gently sloping mostly-circles. Unless
+        requested otherwise, will be vanilla flavored. If requested, other flavors or colors can be used for variety.
 
 almondJoy:
     title: Almond Joy Cookies
     price: 1000
     description: >-
-    You like almond joy candy bars? Have almond joy cookies. These are chocolate chip cookies with milk chocolate chips, almonds,
-    and coconut. They are entirely worth it.
+        You like almond joy candy bars? Have almond joy cookies. These are chocolate chip cookies with milk chocolate chips, almonds,
+        and coconut. They are entirely worth it.
 
 chocolateCoffee:
     title: Chocolate Coffee Cookies
     price: 1000
     description: >-
-    In case you don’t have any coffee to dip your cookie in, these cookies already have coffee flavoring in them. They
-    are chocolate dough with coffee flavoring and chocolate chips.
+        In case you don’t have any coffee to dip your cookie in, these cookies already have coffee flavoring in them. They
+        are chocolate dough with coffee flavoring and chocolate chips.
 
 chocolateOrange:
     title: Chocolate Orange Cookies
     price: 1000
     description: >-
-    For those who love the chocolate oranges for sale every Christmas, these are cookies that are chocolate chip with orange
-    flavoring. Your choice if the dough is chocolate also.
+        For those who love the chocolate oranges for sale every Christmas, these are cookies that are chocolate chip with orange
+        flavoring. Your choice if the dough is chocolate also.
 
 chocolateMint:
     title: Mint Chocolate Cookies
@@ -94,12 +94,12 @@ chocolateToffee:
     title: Toffee Chocolate Chip Cookies 
     price: 1000
     description: >-
-    These are chocolate chip cookies with toffee chips in them. The dough can be chocolate flavored or regular, depending
-    on your preference. Both are really good.
+        These are chocolate chip cookies with toffee chips in them. The dough can be chocolate flavored or regular, depending
+        on your preference. Both are really good.
     
 butterscotchOatmeal:
     title: Butterscotch Oatmeal
     price: 1000
     description: >-
-    These are a sweet brown sugar and oatmeal cookie that is highly addictive and has probably added 10 pounds to the family of
-    the baker.
+        These are a sweet brown sugar and oatmeal cookie that is highly addictive and has probably added 10 pounds to the family of
+        the baker.
