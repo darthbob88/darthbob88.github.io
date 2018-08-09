@@ -71,6 +71,7 @@ almondJoy:
         You like almond joy candy bars? Have almond joy cookies. These are chocolate chip cookies with milk chocolate chips, almonds,
         and coconut. They are entirely worth it.
 
+#Do we really need to differentiate chocolate cookies with coffee/orange/mint? Beware SKU explosion.
 chocolateCoffee:
     title: Chocolate Coffee Cookies
     price: 1000
@@ -103,3 +104,10 @@ butterscotchOatmeal:
     description: >-
         These are a sweet brown sugar and oatmeal cookie that is highly addictive and has probably added 10 pounds to the family of
         the baker.
+
+varietyPack:   
+    title: Random Variety Pack
+    price: 1000
+    description: >-
+        Surprise me! This is just a clamshell filled with a random variety of whatever the bakers were working on when the order came in.
+        Will probably be heavy on one variety or another, but they're all good.
