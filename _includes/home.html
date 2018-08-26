@@ -1,17 +1,18 @@
 <div class="sql-home">
 
- {% if site.data.cookies %}
-        <div class="cookies">
-            <!-- TODO: HARD-TEXT, MORE LIKE HARM-TEXT. -->
-            <h1 class="cookie-header">
-                <span aria-hidden="true">{{ site.title}}</span>
+    {% if site.data.cookies %}
+    <div class="cookies">
+        <!-- TODO: HARD-TEXT, MORE LIKE HARM-TEXT. -->
+        <h1 class="cookie-header">
+            <span aria-hidden="true">{{ site.title}}</span>
             </h2>
-<div class="cookie-contact">We're working on getting a decent order form set up, but for now, just send an email to {{site.email}} with a list of what you want.</div>
+            <div class="cookie-contact">We're working on getting a decent order form set up, but for now, just send an email
+                to {{site.email}} with a list of what you want.
+                </div>
 
-<div class="cookie-site-description"> {{ site.description }}</div>
+            <div class="cookie-site-description"> {{ site.description }}</div>
 
-            {% for cookie in site.data.cookies %}
-            {% assign item = cookie[1] %}
+            {% for cookie in site.data.cookies %} {% assign item = cookie[1] %}
             <div class="cookie-listing">
                 <h3 class="cookie-title">
                     <span aria-hidden="true">{{item.title}}</span>
@@ -21,16 +22,19 @@
                 <div class="cookie-description">{{item.description}}</div>
             </div>
             {% endfor %}
-        </div>
-{% endif %}
+    </div>
+    {% endif %}
 
-<div class="cookie-clamshell">
-    <h3>How big is a box?</h3>
-     {{ site.clamshellDescription }}</div>
-<div class="cookie-selling">
+    <div class="cookie-clamshell">
+        <h3>How big is a box?</h3>
+        {{ site.clamshellDescription }}
+    </div>
+    <div class="cookie-selling">
         <h3>Why sell by the box, rather than the pound or the dozen?</h3>
-        {{site.whySellByBox}}</div>
-<div class="cookie-warning">
-        <h3>Allergen Warning</h3>{{site.warning}}</div>
+        {{site.whySellByBox}}
+    </div>
+    <div class="cookie-warning">
+        <h3>Allergen Warning</h3>{{site.warning}}
+    </div>
 
 </div>
