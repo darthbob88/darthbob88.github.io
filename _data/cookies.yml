@@ -13,6 +13,7 @@
 
 doubleChocolate:
     title: Double Chocolate Cookies
+    logoUrl: "assets/doublechocolate.jpg"
     price: 10
     description: >-
         Can come with white and/or milk chocolate chips. These cookies have chocolate dough and white chocolate chips.  
@@ -33,6 +34,7 @@ oatmealRaisin:
 
 whiteChocolateCraisin:
     title: White chocolate Craisin Cookies
+    logoUrl: "assets/whitechocolatecraisin.jpg"
     price: 10
     description: >-
         Oatmeal cookies with white chocolate chips and cranberry raisin. It might not sound like something you really need to
@@ -41,16 +43,19 @@ whiteChocolateCraisin:
 
 shortbread:
     title: Butterscotch Shortbread
+    logoUrl: "assets/shortbread.jpg"
     price: 10
     description: Standard butterscotch shortbread. You know what it is, it's delicious.
 
 snickerdoodles:
     title: Snickerdoodles
+    logoUrl: "assets/snickerdoodle.jpg"
     price: 10
     description: Snickerdoodles- like you could buy in the store, only better.
 
 pinaColada:
     title: Pina Colada Cookies
+    logoUrl: "assets/pinacolada.jpg"
     price: 10
     description: >- 
         Soft cookies made with pineapple and coconut. If wanted, the addition of mango makes them an instant antidepressant

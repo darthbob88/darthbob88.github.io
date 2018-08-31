@@ -8,18 +8,19 @@
             </h2>
             <div class="cookie-contact">We're working on getting a decent order form set up, but for now, just send an email
                 to {{site.email}} with a list of what you want.
-                </div>
+            </div>
 
-            <div class="cookie-site-description"> {{ site.description }}</div>
+            <div class="cookie-site_description"> {{ site.description }}</div>
 
-            {% for cookie in site.data.cookies %} {% assign item = cookie[1] %}
+            {% for cookie in site.data.cookies %}
+             {% assign item = cookie[1] %}
             <div class="cookie-listing">
-                <h3 class="cookie-title">
+                <h3 class="cookie-listing-title">
                     <span aria-hidden="true">{{item.title}}</span>
                 </h3>
-                <img class="cookie-icon" style="display: block" src="{{item.logoUrl}}" alt="{{item.title}}">
+                <img class="cookie-listing-icon" style="display: block" src="{{item.logoUrl}}" alt="{{item.title}}">
                 <strong>Price: {{"$" | append: item.price }} per box </strong>
-                <div class="cookie-description">{{item.description}}</div>
+                <div class="cookie-listing-description">{{item.description}}</div>
             </div>
             {% endfor %}
     </div>
