@@ -13,106 +13,105 @@
 
 doubleChocolate:
     title: Double Chocolate Cookies
-    logoUrl: "assets/doublechocolate.jpg"
+    logoUrl: assets/doublechocolate.jpg
     price: 10
     description: >-
-        Can come with white and/or milk chocolate chips. These cookies have chocolate dough and white chocolate chips.  
-
+        Can come with white and/or milk chocolate chips. These cookies have
+        chocolate dough and white chocolate chips.  
 stdChocoChip:
     title: Chocolate chip Cookies
     price: 10
     description: >-
-        Just like mother used to make. Or rather, a version of what mother used to make.
-        Unless you pick a preference, the cookies might have a variation of either milk chocolate
-        or semi-sweet chocolate and white chocolate mix for their chips.
-        Both are awesome enough that the baker can’t pick one to be the standard variation.
-
+        Just like mother used to make. Or rather, a version of what mother used
+        to make. Unless you pick a preference, the cookies might have a
+        variation of either milk chocolate or semi-sweet chocolate and white
+        chocolate mix for their chips. Both are awesome enough that the baker
+        can’t pick one to be the standard variation.
 oatmealRaisin:
     title: Oatmeal Raisin Cookies
     price: 10
-    description: Also available with cranberry raisin. Very similar to the cookies that you can buy at the store, but, again, better.
-
+    description: >-
+        Also available with cranberry raisin. Very similar to the cookies that
+        you can buy at the store, but, again, better.
 whiteChocolateCraisin:
     title: White chocolate Craisin Cookies
-    logoUrl: "assets/whitechocolatecraisin.jpg"
+    logoUrl: assets/whitechocolatecraisin.jpg
     price: 10
     description: >-
-        Oatmeal cookies with white chocolate chips and cranberry raisin. It might not sound like something you really need to
-        have, but they are. Cranberry and white chocolate pair together better than you would ever think, and these cookies
-        are proof of it.
-
+        Oatmeal cookies with white chocolate chips and cranberry raisin. It
+        might not sound like something you really need to have, but they are.
+        Cranberry and white chocolate pair together better than you would ever
+        think, and these cookies are proof of it.
 shortbread:
     title: Butterscotch Shortbread
-    logoUrl: "assets/shortbread.jpg"
+    logoUrl: assets/shortbread.jpg
     price: 10
-    description: Standard butterscotch shortbread. You know what it is, it's delicious.
-
+    description: 'Standard butterscotch shortbread. You know what it is, it''s delicious.'
 snickerdoodles:
     title: Snickerdoodles
-    logoUrl: "assets/snickerdoodle.jpg"
+    logoUrl: assets/snickerdoodle.jpg
     price: 10
-    description: Snickerdoodles- like you could buy in the store, only better.
-
+    description: 'Snickerdoodles- like you could buy in the store, only better.'
 pinaColada:
     title: Pina Colada Cookies
-    logoUrl: "assets/pinacolada.jpg"
+    logoUrl: assets/pinacolada.jpg
     price: 10
-    description: >- 
-        Soft cookies made with pineapple and coconut. If wanted, the addition of mango makes them an instant antidepressant
-        according to one customer.
-
+    description: >-
+        Soft cookies made with pineapple and coconut. If wanted, the addition of
+        mango makes them an instant antidepressant according to one customer.
 sugarCookies:
     title: Sugar cookies
     price: 10
     description: >-
-        As a general rule, these are pretty close to generic sugar cookies with vanilla flavoring. If asked, they can be
-        rolled out into flat circles for decoration but otherwise will just be shaped as gently sloping mostly-circles. Unless
-        requested otherwise, will be vanilla flavored. If requested, other flavors or colors can be used for variety.
-
+        As a general rule, these are pretty close to generic sugar cookies with
+        vanilla flavoring. If asked, they can be rolled out into flat circles
+        for decoration but otherwise will just be shaped as gently sloping
+        mostly-circles. Unless requested otherwise, will be vanilla flavored. If
+        requested, other flavors or colors can be used for variety.
 almondJoy:
     title: Almond Joy Cookies
     price: 10
     description: >-
-        You like almond joy candy bars? Have almond joy cookies. These are chocolate chip cookies with milk chocolate chips, almonds,
-        and coconut. They are entirely worth it.
-
-#Do we really need to differentiate chocolate cookies with coffee/orange/mint? Beware SKU explosion.
+        You like almond joy candy bars? Have almond joy cookies. These are
+        chocolate chip cookies with milk chocolate chips, almonds, and coconut.
+        They are entirely worth it.
 chocolateCoffee:
     title: Chocolate Coffee Cookies
     price: 10
     description: >-
-        In case you don’t have any coffee to dip your cookie in, these cookies already have coffee flavoring in them. They
-        are chocolate dough with coffee flavoring and chocolate chips.
-
+        In case you don’t have any coffee to dip your cookie in, these cookies
+        already have coffee flavoring in them. They are chocolate dough with
+        coffee flavoring and chocolate chips.
 chocolateOrange:
     title: Chocolate Orange Cookies
     price: 10
     description: >-
-        For those who love the chocolate oranges for sale every Christmas, these are cookies that are chocolate chip with orange
-        flavoring. Your choice if the dough is chocolate also.
-
+        For those who love the chocolate oranges for sale every Christmas, these
+        are cookies that are chocolate chip with orange flavoring. Your choice
+        if the dough is chocolate also.
 chocolateMint:
     title: Mint Chocolate Cookies
     price: 10
-    description: For those who love mint chocolate, these cookies are minty with chocolate chips and chocolate dough.
-    
+    description: >-
+        For those who love mint chocolate, these cookies are minty with
+        chocolate chips and chocolate dough.
 chocolateToffee:
-    title: Toffee Chocolate Chip Cookies 
+    title: Toffee Chocolate Chip Cookies
     price: 10
     description: >-
-        These are chocolate chip cookies with toffee chips in them. The dough can be chocolate flavored or regular, depending
-        on your preference. Both are really good.
-    
+        These are chocolate chip cookies with toffee chips in them. The dough
+        can be chocolate flavored or regular, depending on your preference. Both
+        are really good.
 butterscotchOatmeal:
     title: Butterscotch Oatmeal
     price: 10
     description: >-
-        These are a sweet brown sugar and oatmeal cookie that is highly addictive and has probably added 10 pounds to the family of
-        the baker.
-
-varietyPack:   
+        These are a sweet brown sugar and oatmeal cookie that is highly
+        addictive and has probably added 10 pounds to the family of the baker.
+varietyPack:
     title: Random Variety Pack
     price: 10
     description: >-
-        Surprise me! This is just a clamshell filled with a random variety of whatever the bakers were working on when the order came in.
-        Will probably be heavy on one variety or another, but they're all good.
+        Surprise me! This is just a clamshell filled with a random variety of
+        whatever the bakers were working on when the order came in. Will
+        probably be heavy on one variety or another, but they're all good.
