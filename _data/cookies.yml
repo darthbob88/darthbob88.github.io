@@ -116,11 +116,3 @@ varietyPack:
     description: >-
         Surprise me! This is just a clamshell filled with a random variety of whatever the bakers were working on when the order came in.
         Will probably be heavy on one variety or another, but they're all good.
-
-# Yeah, I know what I said about SKU explosion. Shaddup.
-samplePack:
-    title: Sampler Pack
-    price: 10
-    description: >-
-         For those times when you just can't choose. A little bit of double-chocolate, shortbread,
-         and snickerdoodle.
