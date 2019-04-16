@@ -17,16 +17,16 @@ doubleChocolate:
     price: 10
     description: >-
         Can come with white and/or milk chocolate chips. These cookies have
-        chocolate dough and white chocolate chips.  
+        chocolate dough and chocolate chips.  
 stdChocoChip:
     title: Chocolate chip Cookies
     price: 10
     description: >-
-        Just like mother used to make. Or rather, a version of what mother used
-        to make. Unless you pick a preference, the cookies might have a
-        variation of either milk chocolate or semi-sweet chocolate and white
-        chocolate mix for their chips. Both are awesome enough that the baker
-        can’t pick one to be the standard variation.
+        Just like mother used to make. Or rather, a version of what mother
+        used to make. Unless you pick a preference, the cookies might have 
+        a variation of either milk chocolate or semi-sweet chocolate and 
+        white chocolate mix for their chips. Both are awesome enough that 
+        the baker can’t pick one to be the standard variation.  
 oatmealRaisin:
     title: Oatmeal Raisin Cookies
     price: 10

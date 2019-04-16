@@ -13,28 +13,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Price Family Cookies
+title: Crazy Cookies 
 email: crazycookiecreator@gmail.com
 phone: 509-427-4253
 description: >-
   These cookies are handmade in small batches as they are ordered and each batch
-  of cookies can be personalized within certain limits if requested. Cookie
-  types will be added to the list available as the recipes are created and
-  perfected. The cookie baker has high standards on the flavor of the cookies,
-  but doesn’t work as much to make them all standard in looks. If you want a
-  uniform box of cookies, get some Oreos.
+  of cookies can be personalized within certain limits if requested. Cookie types
+  will be added to the list available as the recipes are created and perfected.
+  The cookie baker has high standards on the flavor of the cookies, but doesn’t 
+  work as much to make them all standard in looks. If you want a uniform box of 
+  cookies, get some Oreos. 
 clamshellDescription: >-
   Each order of cookies is a clamshell box approximately 7x7x3 inches, full of
-  somewhere around 1 ½ to 2 pounds of whichever kind of cookies is ordered,
-  weight varying due to the size and texture of the cookies.
+  somewhere around 1 ½ to 2 pounds of whichever kind of cookies is ordered, weight
+  varying due to the size and texture of the cookies. 
 whySellByBox: >-
-  Cookies are currently sold by the box, rather than by the dozen, for two
-  reasons. First, the cookies we make are not consistent in size and therefore
-  filling a box with one type of cookies might take 3 dozen of one kind or 4
-  dozen of another, or it could vary between batches. Furthermore, if you want a
-  mixed bag of what we have on hand, then that’s an option that we are willing
-  to give if you ask—just give us an outline of what you don’t want or don’t
-  complain if you get nuts when you don’t want them.
+  Cookies are currently sold by the box, rather than by the dozen, for two reasons.
+  First, the cookies we make are not consistent in size and therefore filling a box
+  with one type of cookies might take 3 dozen of one kind or 4 dozen of another, or
+  it could vary between batches. Furthermore, if you want a mixed bag of what we 
+  have on hand, then that’s an option that we are willing to give if you ask—just 
+  give us an outline of what you don’t want or don’t complain if you get nuts when
+  you don’t want them.  
 warning: >-
   Cookies are made in a facility which handles peanuts, wheat flour, dairy, and
   eggs. Anything which actually contains those allergens will be labeled as
