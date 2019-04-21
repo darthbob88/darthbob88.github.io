@@ -108,6 +108,26 @@ butterscotchOatmeal:
     description: >-
         These are a sweet brown sugar and oatmeal cookie that is highly
         addictive and has probably added 10 pounds to the family of the baker.
+coconutSugar:
+    title: Coconut Sugar Cookies
+    price: 10
+    description: >-
+        These cookies are incredibly sweet and sugary, made mostly of coconut
+        and held together by a soft dough that melts in the mouth. These thin,
+        flat, cookies are chewy only because of the masses of coconut in them,
+        and are more addictive than most. Even without liking coconut
+        particularly, I’ve eaten an entire box without noticing.
+biscotti:
+    title: Biscotti
+    price: 10
+    description: >-
+        Flavors and prices are negotiable, along with additions like dried fruit, nuts,
+        chocolate chips, or anything else. These twice-baked biscuits can
+        taste like anything and are easily dipped in chocolate for an
+        additional cost, which is very much worth it. Orange flavored biscotti
+        with chocolate is a tasty treat, or apple flavored in tea, or even
+        plain almond with or without chocolate. If you know what you want
+        it to be, I’m willing to try to make it. 
 varietyPack:
     title: Random Variety Pack
     price: 10
@@ -115,3 +135,32 @@ varietyPack:
         Surprise me! This is just a clamshell filled with a random variety of
         whatever the bakers were working on when the order came in. Will
         probably be heavy on one variety or another, but they're all good.
+bananaBread:
+    title: Banana Bread
+    price: 3-8
+    description: >-
+        This comes in plain or chocolate, with the additional options of
+        added walnuts or chocolate chips. As one who grew up on this bread,
+        toast a slice with some butter on it and you’ll accidentally eat half
+        the loaf. Small loaves are approximately 3x5.5x2 and $3, and large
+        loaves are approximately 5x9x3 and $8.
+cinnamonRoll:
+    title: Cinnamon Roll
+    price: $1 for 2, 8"x8" pan for $5
+    description: >-
+        Home-made from scratch, these yeast-bread rolls have been quite a hit
+        several times at church or school events, and they’re an excellent choice
+        for breakfast with or without icing. They are not sold with icing due to
+        the mess it tends to make. To maintain freshness, the rolls are put into a
+        1 gallon Ziploc bag, which holds approximately 1 8x8 pan’s worth of these tasty
+        treats. These rolls come in a few varieties—cinnamon with walnuts or raisins, or
+        with neither.  The popular ones around my house are the walnuts. 
+orangeRoll: 
+    title: Orange Roll
+    price: $1 for 2, 8"x8" pan for $5
+    description: Not quite cinnamon rolls, these orange rolls are similar but have
+    orange and coconut in them instead of cinnamon. These rolls are sticky and sweet
+    and a big change from the cinnamon ones in taste, but they are still glorious and
+    tasty. Like with the cinnamon rolls, these are not sold with icing due to the mess
+    it tends to make. To maintain freshness, the rolls are put into a 1 gallon Ziploc 
+    bag, which holds approximately 1 8x8 pan’s worth of these tasty treats. 
